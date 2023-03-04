@@ -1,0 +1,70 @@
+body {
+    background-color: grey;
+    color: grey;
+}
+
+.App {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 5rem 2rem 2rem 2rem;
+}
+
+
+.cart button {
+    background-color: white;
+    border: none;
+    color: grey;
+    padding: .5rem;
+    border-radius: 1rem;
+    width: 10%;
+    height: 50%;
+    margin: auto 0;
+}
+.cart button:hover {
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    max-width: 20%;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card button {
+    width: 50%;
+    margin: 0 auto;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.product-card button:hover {
+    cursor: pointer;
+}
